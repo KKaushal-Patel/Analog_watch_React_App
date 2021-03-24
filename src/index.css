@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+  background: url(./pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 5rem;
+  color: white;
+  text-shadow: 8px 2px 5px black, 0 1px black, 1px 0 black, 0 -1px black; /* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+  /* color: rgb(238, 255, 255); */
+
+  /* transform: rotateX(150deg); */
+  /* background-color: rgba(16, 227, 255, 0.5); */
+}
+
+.div_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 315px;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 545px) {
+  h1 {
+    font-size: 3.7rem;
+  }
+}
+
+/* .button_prop {
+  font-size: x-large;
+  margin: 10px;
+  padding: 18px;
+  border-radius: 18px;
+  background-color: black;
+  color: beige;
+  border: 2px solid rgb(57, 216, 131);
+  
+  outline: none;
+}
+.button_prop:hover {
+  /* transform: scale(1.1); */
+/* margin: 20px; */
+/* color: red; }*/
+
+/* .heading_style {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Blinker", sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: rgb(207, 202, 202);
+  padding: 20px;
+  margin-top: 5px;
+  border: 2px solid;
+} */
